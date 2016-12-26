@@ -13,8 +13,8 @@ else
     docker run -d \
         -p $host_port:8888 \
         --name $container_name \
-        -v $(pwd)/notebooks:/notebooks \
-        -v $(pwd)/data:/data \
+        -v $(pwd)/notebooks:/home/jovyan/work \
+        -v $(pwd)/data:/home/jovyan/data \
         $image_repository
 fi
 
