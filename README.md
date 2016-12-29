@@ -6,10 +6,11 @@
 - Docker
 
 ## Install & Run
-Jupyter 노트북을 Docker 컨테이너로 묶어뒀습니다. Docker 설치 후, 아래 스크립트만 실행하시면 됩니다.
+Jupyter 노트북을 Docker 컨테이너로 실행할 수 있게 설정해뒀습니다. Docker 설치 후, 아래 스크립트만 실행하시면 됩니다.
 ```
 $ ./run_notebook.sh
 ```
 
 ## References
 - 저자 공식 예제: https://github.com/joelgrus/data-science-from-scratch
+- 인사이트북 예제: https://github.com/insightbook/Data-Science-from-Scratch
