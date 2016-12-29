@@ -1,5 +1,5 @@
 #!/bin/bash
-container_name=ds_notebook
+container_name=data-science-from-scratch
 image_repository=jupyter/datascience-notebook
 host_port=9999
 
